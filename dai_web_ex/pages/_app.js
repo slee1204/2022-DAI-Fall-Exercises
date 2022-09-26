@@ -3,9 +3,14 @@ import Head from 'next/head'
 import * as React from "react";
 
 function MyApp({ Component, pageProps }) {
+<<<<<<< HEAD
   return  <Component {...pageProps} />
 
     /*{ <Head>
+=======
+  return <>
+    <Head>
+>>>>>>> ca89010a9398cc137b8c0043783297224760477f
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
@@ -20,11 +25,19 @@ function MyApp({ Component, pageProps }) {
       />
 
 
+<<<<<<< HEAD
     </Head> }*/
     
 
     
  
+=======
+    </Head>
+    
+
+    <Component {...pageProps} />
+ </>
+>>>>>>> ca89010a9398cc137b8c0043783297224760477f
  }
 
 export default MyApp
