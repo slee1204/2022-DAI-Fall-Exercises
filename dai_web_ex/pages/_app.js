@@ -1,8 +1,7 @@
-import 'semantic-ui-css/semantic.min.css'
-import Head from 'next/head'
-import * as React from "react";
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
+<<<<<<< HEAD
 <<<<<<< HEAD
   return  <Component {...pageProps} />
 
@@ -39,5 +38,9 @@ function MyApp({ Component, pageProps }) {
  </>
 >>>>>>> ca89010a9398cc137b8c0043783297224760477f
  }
+=======
+  return <Component {...pageProps} />
+}
+>>>>>>> parent of e62d40d (week 3 inclass)
 
 export default MyApp
