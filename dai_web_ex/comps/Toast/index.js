@@ -10,9 +10,9 @@ content="This is a content"
 }){
   return <motion.div
               style={{textAlign: "center", marginTop: 100}}
-              initial={{ opacity: 1, scale: 0, x: -1000 }}
-              animate={{ opacity: 1, scale: 1, x:-450 }}
-              transition={{ duration: 0.5 }}>
+              initial={{ opacity: 0, scale: 1, x:-475, y:-150 }}
+              animate={{ opacity: 1, scale: 1, x:-475, y:-100}}
+              transition={{ duration: 0.3 }}>
     <Message
     compact
     header={header}
