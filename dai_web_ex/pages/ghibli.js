@@ -1,6 +1,8 @@
-import { motion } from 'framer-motion';
 import { useState } from 'react';
 import axios from 'axios';
+
+//UI related not going to NATIVE
+import { motion } from 'framer-motion';
 import { Card, Icon, Image } from 'semantic-ui-react'
 
 
